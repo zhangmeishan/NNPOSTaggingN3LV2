@@ -1,0 +1,3 @@
+cmake .. -DEIGEN3_INCLUDE_DIR=/c/eigen/ -DN3L_INCLUDE_DIR=/d/github/LibN3L-2.0/
+
+-l -train D:\LREC2016\POSTagging\Chinese\ctb.train.pos -dev D:\LREC2016\POSTagging\Chinese\ctb.dev.pos -test D:\LREC2016\POSTagging\Chinese\ctb.test.pos -option D:\LREC2016\POSTagging\Chinese\option.debug
